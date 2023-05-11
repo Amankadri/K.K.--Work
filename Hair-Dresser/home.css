@@ -1,0 +1,125 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading
+{
+    height: 37px ;
+    background: #000;
+    color: white;
+    text-align: center;
+    line-height: 37px;
+    font-size: 14px;
+}
+
+.nav
+{
+    height: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2px 0px;
+}
+
+.navbar ul li
+{
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+.info
+{
+    display: flex;
+    
+}
+
+.info-contact
+{
+    display: flex;
+    margin-right: 20px;
+}
+/* Header end */
+
+
+.banner-img
+{
+    object-fit: cover;
+    position: relative;
+}
+
+.banner-info
+{
+   width: 20%;
+   position: absolute;
+   top: 40%;
+   left: 5%;
+}
+
+.banner-info h1
+{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: capitalize
+}
+/* banner ends */
+
+.card-container
+{
+    height: 900px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 10px; */
+    padding: 10px 40px;
+}
+
+.card
+{
+    height: 650px;
+    width: 470px;
+    /* background-color: yellowgreen; */
+    margin-right: 10px;
+}
+
+.line
+{
+    height: 10px;
+    width: 90%;
+    background: #000;
+    margin: -200px auto;
+}
+
+.section1
+{
+    height: 800px;
+    /* background-color: blueviolet;     */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 280px 0px;
+}
+
+.section-img
+{
+    height: 500px;
+    /* background-color: aqua; */
+    width: 60%;
+}
+
+.section-txt
+{
+    height: 500px;
+    /* background-color: chartreuse; */
+    width: 40%;
+
+}
+
+.txt 
+{
+    width: 40%;
+    padding: 0px 10px;
+}
