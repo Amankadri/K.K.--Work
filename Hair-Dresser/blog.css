@@ -1,0 +1,108 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading
+{
+    height: 37px ;
+    background: #000;
+    color: white;
+    text-align: center;
+    line-height: 37px;
+    font-size: 14px;
+}
+
+.nav
+{
+    height: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2px 0px;
+}
+
+.navbar ul li
+{
+    display: inline;
+    margin-right: 10px;
+    /* padding: 30px 0px; */
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase   ;
+    
+}
+
+.info
+{
+    display: flex;
+    
+}
+
+.info-contact
+{
+    display: flex;
+    margin-right: 50px;
+    padding-top: 25px;
+}
+
+.icons
+{
+    padding: 20px 50px;
+   
+}
+/* Header end */
+
+
+.banner-img
+{
+    position: relative;
+}
+
+.banner-txt
+{
+  width: 28%;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+}
+/* Banner end  */
+
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card 
+{
+    position: relative;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.cardtxt
+{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+  
+
+}
+
+.effect
+{
+    height: 570px; 
+    width: 390px;
+    background: #FFFFFF80;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

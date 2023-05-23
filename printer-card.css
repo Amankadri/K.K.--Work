@@ -1,0 +1,165 @@
+.container
+{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+
+.card1{
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    height: 700px;
+    width: 350px;
+    margin-right: 10px;
+  
+  }
+  
+  .card-content-row{
+    box-sizing: border-box;
+    margin-right: 10px;
+    border-radius:10px ;
+    border: 1px solid #dbd1d1;
+    height: 700px;
+    width: 350px;
+  }
+  
+  .new-arrival-col{
+    box-sizing: border-box;
+  
+                border-radius: 20px;
+                background-color: #fff;
+                color: #f99d28;
+                border: 1px solid #f99d28;
+                width: 140px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                padding: 10px;
+                z-index: 1;
+                top: 20px;
+                height: 20px;
+                width: 80px;
+                font-size: 8px;
+                justify-content: center;
+                margin-left: 10px;
+    }
+    .add-to-quote-main-col{
+      padding: 8px;
+    }
+  
+    .add-to-quote-col-btn{
+      box-sizing: border-box;
+                background-color: #f99d28;
+                position: relative;
+                color: #fff;
+                border-radius: 4px;
+                width: 195px;
+                height: 40px;
+                margin: 0px 40px;
+    }
+    .ink-cartridges1-col{
+      background-color: #f99d28;
+              display: flex;
+              justify-content: center;
+              
+    }
+    .ink-cartridges2-col{
+      color: #f99d28;
+      padding: 5px;
+    }
+    .brother-cyan-ink-cart-col{
+      font-size: 20px; 
+      font-weight: 700;
+      padding: 10px;
+    }
+  
+    .color-cyan-col{
+      color: #C2C2C2 ;
+      margin-left: 10px;
+    }
+
+.container2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 470px;
+}    
+
+
+.card2{
+        position: relative;
+        /* display: flex;
+        justify-content: center; */
+        height: 500px;
+        width: 210px;
+        margin-right: 10px;
+      
+      }
+      
+      .card-content-row2{
+        box-sizing: border-box;
+        margin-right: 10px;
+        border-radius:10px ;
+        border: 1px solid #dbd1d1;
+        height: 450px;
+        width: 210px;
+      }
+      
+      .new-arrival-col2{
+        box-sizing: border-box;
+      
+                    border-radius: 20px;
+                    background-color: #fff;
+                    color: #f99d28;
+                    border: 1px solid #f99d28;
+                    width: 140px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    padding: 10px;
+                    z-index: 1;
+                    top: 20px;
+                    height: 20px;
+                    width: 80px;
+                    font-size: 8px;
+                    justify-content: center;
+                    margin-left: 10px;
+        }
+        .add-to-quote-main-col2{
+          padding: 8px;
+        }
+      
+        .add-to-quote-col-btn2{
+          box-sizing: border-box;
+                    background-color: #f99d28;
+                    position: relative;
+                    color: #fff;
+                    border-radius: 4px;
+                    width: 195px;
+                    height: 40px;
+                    margin: 0px 0px;
+        }
+        .ink-cartridges1-col2{
+          background-color: #f99d28;
+                  display: flex;
+                  justify-content: center;
+                  
+        }
+        .ink-cartridges2-col2{
+          color: #f99d28;
+          padding: 5px;
+        }
+        .brother-cyan-ink-cart-col2{
+          font-size: 20px; 
+          font-weight: 700;
+          padding: 10px;
+        }
+      
+        .color-cyan-col2{
+          color: #C2C2C2 ;
+          margin-left: 10px;
+        }    
