@@ -1,8 +1,18 @@
+@font-face {
+    font-family: 'MountiesRegular';
+    src: url('Fonts/MountiesRegular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
 *
 {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-family: "MountiesRegular";
 }
 
 .heading
