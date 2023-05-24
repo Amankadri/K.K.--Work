@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="productlisting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="header">
         <div class="heading">✨ FREE SHIPPING ON ORDERS +$150 ✨</div>
@@ -15,8 +20,8 @@
                 <ul>
                     <li><a href="home.html"> Home</a></li>
                     <li><a href="productlisting.html"> Products</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="category.html">Category</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </div>
             <div class="logo">
@@ -24,11 +29,13 @@
             </div>
             <div class="info">
                 <div class="info-contact">
-                    <p style="margin-right: 20px;"><a href="/about.html">ABOUT</a></p>
-                    <p><a href="/contact.html">CONTACT US</a></p>
+                    <p style="margin-right: 20px;"><a href="about.html">ABOUT</a></p>
+                    <p><a href="contact.html">CONTACT US</a></p>
                 </div>
+                <div class="i"><input type="text" id="inp"></div>
                 <div class="icons">
-                    <img src="Images/search-removebg-preview.png" alt="" height="20px" width="20px" style="margin-right: 20px;">
+                    <img src="Images/search-removebg-preview.png" alt="" height="20px" width="20px"
+                        style="margin-right: 20px;" onclick="test()">
                     <img src="Images/Vector.png" alt="" style="margin-right: 20px;">
                     <img src="Images/Vector (1).png" alt="" style="margin-right: 20px;">
                     <img src="Images/0.png" alt="" style="margin-left: -9px; margin-bottom: 3px;">
@@ -38,347 +45,396 @@
     </div>
     <!-- Header ends -->
 
-    <div class="banner">
-        <div class="baneer-img">
-            <img src="Images/Page2/beautiful-girl-bed 1.png" alt="" height="" width="100%" style="object-fit: cover;">
-        </div>
-        <div class="banner-txt">
-            <h1 style="font-size: 30px; margin-bottom: 10px;">Your Favourite Hairs!</h1>
-            <p  style="font-size: 18px; margin-bottom: 10px; 
-            text-transform: uppercase;">Gift yourself your favourite hair by availing this exciting offer!</p>
-            <p  style="font-size: 16px; margin-bottom: 10px; 
-            text-transform: uppercase;"><a href="home.html" style="text-decoration: none;"> Home  &nbsp; &nbsp;</a>   &nbsp; &nbsp; <a href="prodcut-details.html" style="text-decoration: none;">  Products</p></a>
-        </div>   
-    </div>
-   <!-- Banner end  -->
-
-
-    <div class="main-container">
-        <div class="categories">
-            <div class="filter">
-                <h3>Filters</h3>
-                <p></p>
+    <section class="banner1">
+        <div class="container">
+            <div class="banner">
+                <div class="baneer-img">
+                    <img src="Images/Page2/beautiful-girl-bed 1.png" alt="" height="" width="100%"
+                        style="object-fit: cover;">
+                </div>
+                <div class="banner-txt">
+                    <h1 style="font-size: 80px; margin-bottom: 10px; font-weight: 400;">Your Favourite Hairs!</h1>
+                    <p style="font-size: 18px; margin-bottom: 10px; font-family: 'Inter', sans-serif;
+                text-transform: uppercase;">Gift yourself your favourite hair by availing this exciting offer!</p>
+                    <p style="font-size: 16px; margin-bottom: 10px; 
+                text-transform: uppercase;"><a href="home.html" style="text-decoration: none;"> Home &nbsp; &nbsp;</a>
+                        > &nbsp; &nbsp; <a href="prodcut-details.html" style="text-decoration: none;"> Products</p></a>
+                </div>
             </div>
         </div>
-        <div class="main">
-            <div class="card-container">
-                <div class="card">
-                    <img src="Images/Page2/card-img1.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #1</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
+    </section>
+    <!-- Banner end  -->
+
+
+    <section>
+        <div class="container">
+            <div class="main-container">
+                <div class="categories">
+                    <div class="filter">
+                        <h3>Filters</h3>
+                        <p></p>
                     </div>
                 </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/card-img2.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #2</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
+                <div class="main">
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="Images/Page2/card-img1.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #1</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/card-img2.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #2</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/card-img3.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #3</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg4.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #4</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg5.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #5</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg6.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #6</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg7.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #7</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg8.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #8</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg9.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #9</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg10.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #10</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg11.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #11</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg12.png" alt="" height="360px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #12</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                    </div>
+                    <!-- card-container end  -->
+
+                    <div class="main-banner">
+                        <div class="main-banner-img">
+                            <img src="Images/Page2/main-banner-img.png" alt="" height="370px">
+                        </div>
+                        <div class="main-banner-info">
+                            <div class="bann-txt">
+                                <h1
+                                    style="font-size: 35px; margin-bottom: 10px; text-transform: uppercase; font-weight: 400;">
+                                    Meet New Bloom</h1>
+                                <p style="color:  #2C2523;">Lorem ipsum dolor sit amet consectetur. Ligula rhoncus ac
+                                    nec aliquet. Malesuada.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Main banner end  -->
+
+                    <div class="card-container" style="justify-content: left; padding: 20px 10px;">
+                        <div class="card">
+                            <img src="Images/Page2/cardimg13.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #13</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg14.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #14</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg15.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #15</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg16.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #16</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg17.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #17</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg18.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #18</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+                        <div class="card">
+                            <img src="Images/Page2/cardimg19.png" alt="" height="350px" width="260px">
+                            <div class="card-info">
+                                <div class="flex" style="display: flex; justify-content: space-between;">
+                                    <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #19</a></h3>
+                                    <span style="color: gray; margin-top: 10px;">$118</span>
+                                </div>
+                                <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
+                                <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card end  -->
+
+                    </div>
+                    <!-- card-container end  -->
+                    <div class="btn" style="display: flex; justify-content: center;">
+                        <div class="btn1"><button
+                                style="padding: 10px 20px; background-color: white;margin-right: 10px;">PREV</button>
+                        </div>
+                        <div class="btn2"><button
+                                style="padding: 10px 15px; background-color: white;margin-right: 10px;">1</button></div>
+                        <div class="btn2"><button
+                                style="padding: 10px 15px; background-color: white;margin-right: 10px;">2</button></div>
+                        <div class="btn2"><button
+                                style="padding: 10px 15px; background-color: white;margin-right: 10px;">3</button></div>
+                        <div class="btn1"><button
+                                style="padding: 10px 20px; background-color: white;margin-right: 10px;">NEXT</button>
+                        </div>
                     </div>
                 </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/card-img3.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #3</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg4.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #4</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg5.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #5</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg6.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #6</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg7.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #7</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg8.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #8</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg9.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #9</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg10.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #10</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg11.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #11</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg12.png" alt="" height="360px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #12</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
             </div>
-            <!-- card-container end  -->
-
-            <div class="main-banner">
-                <div class="main-banner-img">
-                    <img src="Images/Page2/main-banner-img.png" alt="" height="370px">
-                </div>
-                <div class="main-banner-info">
-                    <div class="bann-txt">
-                        <h1 style="font-size: 30px; margin-bottom: 10px; text-transform: uppercase;">Meet New Bloom</h1>
-                        <p style="color:  #2C2523;">Lorem ipsum dolor sit amet consectetur. Ligula rhoncus ac nec aliquet. Malesuada.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Main banner end  -->
-
-            <div class="card-container" style="justify-content: left; padding: 20px 10px;">
-                <div class="card">
-                    <img src="Images/Page2/cardimg13.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #13</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg14.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #14</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg15.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #15</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg16.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #16</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg17.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #17</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg18.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #18</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-                <div class="card">
-                    <img src="Images/Page2/cardimg19.png" alt="" height="350px" width="260px">
-                    <div class="card-info">
-                        <div class="flex" style="display: flex; justify-content: space-between;">
-                            <h3 style="margin-top: 10px;"><a href="prodcut-details.html">Hair Dress #19</a></h3>
-                            <span style="color: gray; margin-top: 10px;">$118</span>
-                           </div>
-                        <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                        <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                    </div>
-                </div>
-                <!-- card end  -->
-
-            </div>
-               <!-- card-container end  -->
-            <div class="btn" style="display: flex; justify-content: center;">
-                <div class="btn1"><button style="padding: 10px 20px; background-color: white;margin-right: 10px;">PREV</button></div>
-                <div class="btn2"><button style="padding: 10px 15px; background-color: white;margin-right: 10px;">1</button></div>
-                <div class="btn2"><button style="padding: 10px 15px; background-color: white;margin-right: 10px;">2</button></div>
-                <div class="btn2"><button style="padding: 10px 15px; background-color: white;margin-right: 10px;">3</button></div>
-                <div class="btn1"><button style="padding: 10px 20px; background-color: white;margin-right: 10px;">NEXT</button></div>
-            </div>   
-
         </div>
-    </div>
+    </section>
     <!-- main container end  -->
 
-    <div class="banner2" style="margin-top: 40px;">
-        <div class="banner-img2" style="height: 400px;">
-            <img src="Images/Page2/banner2.png" alt="" height="650px" width="100%">
-        </div>
-        <div class="banner-info2">
-            <h1 style="margin-bottom: 10px; ">Hair Entension Made With Love</h1>
-            <p style="font-size: 18px; text-transform: capitalize; margin-bottom: 10px;">A wide range of hair extensions and beauty products for Women and Kids.</p>
-            <button style="padding: 8px 20px; background: white;
-            color: black; border: none;"><a href="productlisting.html">SHOP Now!</a></button>
+    <div class="section">
+        <div class="container">
+            <div class="banner2" style="margin-top: 40px;  margin-bottom: 300px;">
+                <div class="banner-img2" style="height: 400px;">
+                    <img src="Images/Page2/banner2.png" alt="" height="650px" width="100%">
+                </div>
+                <div class="banner-info2">
+                    <h1 style="margin-bottom: 10px; font-size: 80px; font-weight: 400;">Hair Entension Made With Love</h1>
+                    <p style="font-size: 25px; text-transform: capitalize; margin-bottom: 10px; font-family: 'Inter', sans-serif;">A wide range of hair extensions
+                        and beauty products for Women and Kids.</p>
+                    <button style="padding: 8px 20px; background: white;
+                    color: black; border: none;"><a href="productlisting.html" style="color: #000; text-decoration: none;">SHOP Now!</a></button>
+                </div>
+            </div>
         </div>
     </div>
     <!-- banner 2 end  -->
 
-    <div class="content3">
-        <div class="heading1 " style="display: flex; justify-content: space-between; ">
-            <div class="cont-head">
-                <h2 style="font-size: 35px; text-transform: uppercase;">#HairDresser</h2>
-            </div>
-            <div class="cont-icons">
-                <img src="Images/facebook.png" alt="" style="margin-right: 10px;">
-                <img src="Images/tiktok.png" alt=""  style="margin-right: 10px;">
-                <img src="Images/insta.png" alt=""  style="margin-right: 10px;">
-                <img src="Images/twiitter.png" alt=""  style="margin-right: 10px;">
+    <section>
+        <div class="container">
+            <div class="content3">
+                <div class="heading1 " style="display: flex; justify-content: space-between; ">
+                    <div class="cont-head">
+                        <h1 style="font-size: 80px; text-transform: uppercase; font-weight: 400;">#HairDresser</h1>
+                    </div>
+                    <div class="cont-icons">
+                        <img src="Images/facebook.png" alt="" style="margin-right: 10px;">
+                        <img src="Images/tiktok.png" alt="" style="margin-right: 10px;">
+                        <img src="Images/insta.png" alt="" style="margin-right: 10px;">
+                        <img src="Images/twiitter.png" alt="" style="margin-right: 10px;">
+                    </div>
+                </div>
+                <div class="cont-card">
+                    <div class="prev">
+                        <img src="Images/Previous.png" alt="">
+                    </div>
+                    <div class="next">
+                        <img src="Images/Next.png" alt="">
+                    </div>
+                    <div class="card4">
+                        <img src="Images/image__3_.png.png" alt="" height="484px" width="273px">
+                    </div>
+                    <div class="card4">
+                        <img src="Images/image__4_.png.png" alt="" height="484px" width="273px">
+                    </div>
+                    <div class="card4">
+                        <img src="Images/image__2_.png.png" alt="" height="484px" width="273px">
+                    </div>
+                    <div class="card4">
+                        <img src="Images/image__1_.png.png" alt="" height="484px" width="273px">
+                    </div>
+                    <div class="card4">
+                        <img src="Images/sultry.jpeg.png" alt="" height="484px" width="273px">
+                    </div>
+                </div>
+        
             </div>
         </div>
-        <div class="cont-card">
-            <div class="prev">
-                <img src="Images/Previous.png" alt="">
-            </div>
-            <div class="next">
-                <img src="Images/Next.png" alt="">
-            </div>
-            <div class="card4">
-                <img src="Images/image__3_.png.png" alt="" height="484px" width="273px">
-            </div>
-            <div class="card4">
-                <img src="Images/image__4_.png.png" alt=""height="484px" width="273px">
-            </div>
-            <div class="card4">
-                <img src="Images/image__2_.png.png" alt=""height="484px" width="273px">
-            </div>
-            <div class="card4">
-                <img src="Images/image__1_.png.png" alt=""height="484px" width="273px">
-            </div>
-            <div class="card4">
-                <img src="Images/sultry.jpeg.png" alt=""  height="484px" width="273px">
-            </div>
-        </div>    
-       
-      </div>
-      <!-- content 3 end  -->
+    </section>
+    <!-- content 3 end  -->
 
-      <div class="footer">
+    <div class="footer">
         <div class="footer-info">
             <h2 style="margin-bottom: 10px; color: #FFFFFF;">Get On The List</h2>
             <h3 style="margin-bottom: 10px;">Sign up to get to know all latest offers and 10% off your first order.</h3>
-            <p style="margin-bottom: 10px;">*By signing up, I agree to receive recurring automated marketing text messages Lorem ipsum dolor sit amet consectetur. Id in fames elit sagittis eget aliquet. Dictum fringilla aliquet tempor scelerisque vulputate felis faucibus ipsum.</p>
+            <p style="margin-bottom: 10px;">*By signing up, I agree to receive recurring automated marketing text
+                messages Lorem ipsum dolor sit amet consectetur. Id in fames elit sagittis eget aliquet. Dictum
+                fringilla aliquet tempor scelerisque vulputate felis faucibus ipsum.</p>
             <table style="margin-bottom: 10px; ">
                 <tr>
                     <td><input type="text" value="Your Phone Number*"></td>
@@ -389,41 +445,56 @@
             </table>
             <button style="padding: 8px 14px; background-color: black;
              color: white; border: 1px solid white;">SIGN-UP</button>
-            <div class="footer-line"></div> 
+            <div class="footer-line"></div>
             <div class="footer1-txt">
                 <div class="Shop">
                     <h3>SHOP</h3>
-                   <p> <a href="#">Hairs</a></p>
+                    <p> <a href="#">Hairs</a></p>
                     <p><a href="#">Beauty</a></p>
                     <p><a href="#">Kids</a></p>
-                   <p> <a href="#">Extenders</a></p>
+                    <p> <a href="#">Extenders</a></p>
                 </div>
                 <div class="Legal">
                     <h3>LEGAL</h3>
-                    <p><a href="#" style="text-decoration: none;" >Privacy Policy</a></p>
-                    <p><a href="#" style="text-decoration: none;" >Terms & Conditions</a></p>
-                    <p><a href="#" style="text-decoration: none;" >Accessibility Policy</a></p>
+                    <p><a href="#" style="text-decoration: none;">Privacy Policy</a></p>
+                    <p><a href="#" style="text-decoration: none;">Terms & Conditions</a></p>
+                    <p><a href="#" style="text-decoration: none;">Accessibility Policy</a></p>
                 </div>
                 <div class="social">
                     <h3>CUSTOMER CARE</h3>
-                    <p><a href="faq.html" style="text-decoration: none;" >FAQ</a></p>
-                    <p><a href="#" style="text-decoration: none;" >Shipping & Returns</a></p>
-                    <p><a href="contact.html" style="text-decoration: none;" >Contact us</a></p>
+                    <p><a href="faq.html" style="text-decoration: none;">FAQ</a></p>
+                    <p><a href="#" style="text-decoration: none;">Shipping & Returns</a></p>
+                    <p><a href="contact.html" style="text-decoration: none;">Contact us</a></p>
                 </div>
                 <div class="social">
                     <h3>SOCIAL</h3>
-                    <p><a href="#" style="text-decoration: none;" >Instagram</a></p>
-                    <p><a href="#" style="text-decoration: none;" >Twitter</a></p>
-                    <p><a href="#" style="text-decoration: none;" >TikTok</a></p>
-                    <p><a href="#" style="text-decoration: none;" >Facebook</a></p>
+                    <p><a href="#" style="text-decoration: none;">Instagram</a></p>
+                    <p><a href="#" style="text-decoration: none;">Twitter</a></p>
+                    <p><a href="#" style="text-decoration: none;">TikTok</a></p>
+                    <p><a href="#" style="text-decoration: none;">Facebook</a></p>
                 </div>
                 <div class="Shop">
                     <h3>SHOP</h3>
-                    <p><a href="blog.html" style="text-decoration: none;" >Categories</a></p>
+                    <p><a href="blog.html" style="text-decoration: none;">Categories</a></p>
                 </div>
             </div>
         </div>
     </div>
     </div>
+
+    <script>
+        inp_tag = document.getElementById("inp")
+
+        function test() {
+            if (inp_tag.style.display == "none") {
+                inp_tag.style.display = "block"
+                // inp_tag.style.margin-left = " 60px"
+            }
+            else {
+                inp_tag.style.display = "none";
+            }
+        }
+    </script>
 </body>
+
 </html>

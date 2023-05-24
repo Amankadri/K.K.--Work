@@ -7,8 +7,8 @@
 
 @media (min-width: 1400px) {
     .container {
-        /* max-width: 1320px; */
-        max-width: min(1520px, 100vw);
+        /* max-width: 1320px; */    
+        max-width: min(1720px, 100vw);
         margin: 0px auto;
     }
 }
@@ -64,9 +64,10 @@ h1 {
 {
     color: #000;
     display: none;
-    height: 20px;
+    height: 25px;
     border: 1px solid gray;
     margin: 20px -40px;
+    border-radius: 20px;
 }
 
 .footer a {
