@@ -77,14 +77,15 @@
 {
     /* height: 1000px; */
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 50px 0px;
+    padding: 50px 100px;
 }
 
 .small-img
 {
     /* height: 600px; */
-    width: 7%;
+    width: 10%;
     /* background-color: teal; */
     padding: 0px 70px;
     
@@ -100,9 +101,10 @@
 .description
 {
     /* height: 600px; */
-    width: 15%;
+    width: 40%;
     /* background-color: purple; */
     font-family: 'Inter', sans-serif;
+    padding: 0px 200px;
 }
 
 .price

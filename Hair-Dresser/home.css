@@ -60,6 +60,15 @@ h1 {
 
 }
 
+.i input
+{
+    color: #000;
+    display: none;
+    height: 20px;
+    border: 1px solid gray;
+    margin: 20px -40px;
+}
+
 .footer a {
     color: white;
 }
