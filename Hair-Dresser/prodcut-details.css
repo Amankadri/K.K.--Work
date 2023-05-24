@@ -100,16 +100,47 @@
 .description
 {
     /* height: 600px; */
-    width: 35%;
-    background-color: purple;
+    width: 15%;
+    /* background-color: purple; */
+    font-family: 'Inter', sans-serif;
 }
 
 .price
 {
-    height: 30px;
-    width: 500px;
-    border-top: 1px solid gray;
-    background-color: aqua;
+    padding: 4px 0px;
+    height: 40px;
+    width: 300px;
+    border-top: 1px solid rgb(219, 215, 215);
+    border-bottom: 1px solid rgb(219, 215, 215);
+    /* background-color: aqua; */
+}
+
+.color1
+{
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+
+.size1
+{
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+
+.description button 
+{
+    padding: 13px 80px;
+    border-radius: 30px;
+    background: #000;
+    margin-bottom: 10px;
+    
+}
+
+button a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .card-content

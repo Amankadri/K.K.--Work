@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -14,10 +17,10 @@
         <div class="nav">
             <div class="navbar" style="padding: 25px 70px;">
                 <ul>
-                    <li><a href="/home.html"> Home</a></li>
-                    <li><a href="/productlisting.html"> Products</a></li>
+                    <li><a href="home.html"> Home</a></li>
+                    <li><a href="productlisting.html"> Products</a></li>
                     <li><a href="#">Category</a></li>
-                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                 </ul>
             </div>
             <div class="logo">
@@ -40,33 +43,36 @@
     <!-- Header ends -->
 
     <div class="banner-img" >
-            <img src="Images/beautiful-girl-bed 1.png" alt="" height="650px" width="100%">
+            <div class="container">
+                <img src="Images/beautiful-girl-bed 1.png" alt="" height="650px" width="100%">
             <div class="banner-info">
-                <h1 >Wide Range of Hair Extension Just for you</h1>
-                <p style="color: white; font-size: 18px;
-                text-transform: capitalize; margin-bottom: 10px;" >Welcome to Hair Dresses. Welcome to the revolution.</p>
+                <h1 style="font-size: 60px; font-weight: 400;" >Wide Range of Hair Extension Just for you</h1>
+                <p style="color: white; font-size: 21px; font-family: 'Inter', sans-serif;
+                text-transform: uppercase; margin-bottom: 10px; font-weight: 500;" >Welcome to Hair Dresses. Welcome to the revolution.</p>
                 <button style="padding: 8px 21px;
                 background: #000;
                 color: white;">SHOP Hairs</button>
             </div>
-
+            </div>
     </div>
     <!-- Banner end -->
     <div class="content1" style="margin-top: 30px;">
-        <h2>Trending Products</h2>
+        <h2 style=" font-family: 'MountiesRegular';font-size: 45px; font-weight: 400; margin-right: 20px;
+        margin: 0px 80px;" >Trending Products</h2>
         <div class="card-container">
             <div class="card">
                 <img src="Images/GXVE_23SPR_CSS_MASCARA_COWGIRL_MODEL_AMY_APPLICATION_2.jpg.png" alt=""  height="650px" width="470px">
             </div>
             <div class="card">
+                <div class="new" ><button style="padding: 5px 8px; background: #231F20; color: #FFFFFF;">NEW</button></div>
                 <img src="Images/GXVE_23SPR_CSS_MASCARA_PRODUCT_PACKSHOT_SWATCH_2000x2000_1.jpg.png" alt=""  width="470px">
                 <div class="card-info">
                     <h3 style="margin-top: 10px;"><a href="prodcut-details.html" style="text-decoration: none;">Hair Dress #1</a></h3>
                     <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
                     <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
                     <div class="button" style="height: 35px; width: 470px;
-                    background: #000; color: white; margin: 18px 0px;
-                    text-align: center; line-height: 35px;"><a href="prodcut-details.html" style="text-decoration: none;"> VIEW PRODUCT</a></div>
+                    background: #000; margin: 18px 0px;
+                    text-align: center; line-height: 35px;"><a href="prodcut-details.html" style="text-decoration: none;color: white;"> VIEW PRODUCT</a></div>
                 </div>
             </div>
             <div class="card">
@@ -76,23 +82,25 @@
         <div class="line"></div>
     </div>
     <div class="section1">
-        <div class="section-img">
-            <img src="Images/haircare-girl-with-long-hair-cosmetics-products-healthy-hair-concept (1) 1.png" alt="" height="500px" width="900px">
-        </div>
-        <div class="section-txt">
-           <div class="txt">
-            <h2 style="font-size: 30px; margin-bottom: 10px;">NEW! I'm Still here Shades</h2>
-            <p style="margin-bottom: 10px;">Hair extensions and hair care products you like!</p>
-            <button style="height: 25px; width: 240px;
-            background: #000; color: white; margin: 18px 0px;
-            text-align: center; line-height: 25px"><a href="blog.html" style="text-decoration: none;">SHOP ALL CATEGORIES</a></button>
-           </div>
+        <div class="container">
+            <div class="section-img">
+                <img src="Images/haircare-girl-with-long-hair-cosmetics-products-healthy-hair-concept (1) 1.png" alt="" height="500px" width="900px">
+            </div>
+            <div class="section-txt">
+               <div class="txt">
+                <h1 style="font-size: 50px; margin-bottom: 10px; font-weight: 400;">NEW! I'm Still here Shades</h1>
+                <p style="margin-bottom: 10px; font-size: 19px;">Hair extensions and hair care products you like!</p>
+                <button style="height: 25px; width: 240px;
+                background: #000; margin: 18px 0px;
+                text-align: center; line-height: 25px"><a href="blog.html" style="text-decoration: none; color: white;">SHOP ALL CATEGORIES</a></button>
+               </div>
+            </div>
         </div>
     </div>
     <!-- Section 1 End -->
     
     <div class="content2">
-        <h3 style="text-align: center; font-size: 30px;">Your favorite Hairs:</h3>
+        <h1 style="text-align: center; font-size: 45px; font-weight: 400;">Your favorite Hairs:</h1>
         <div class="card-content">
             <div class="card2">
                 <img src="Images/ribbed-tulum-final-1_364x485_crop_center@2x.jpg.png" alt="" height="400px" width="350px">
@@ -113,7 +121,7 @@
                     <span style="color: gray; margin-top: 10px;">$118</span>
                    </div>
                     <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                    <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
+                    <div class="x" style="height: 20px; width: 20px; background: #5B423D; margin-top: 10px;"></div>
                 </div>
             </div>
             <div class="card2">
@@ -124,7 +132,7 @@
                         <span style="color: gray; margin-top: 10px;">$118</span>
                        </div>
                     <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                    <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
+                    <div class="x" style="height: 20px; width: 20px; background: #463E3E; margin-top: 10px;"></div>
                 </div>
             </div>
             <div class="card2">
@@ -132,19 +140,22 @@
                 <div class="card-info">
                     <div class="flex" style="display: flex; justify-content: space-between;">
                         <h3 style="margin-top: 10px;"><a href="prodcut-details.html" style="text-decoration: none;">Hair Dress #1</a></h3>
+                        <span style="color: gray; margin-top: 10px;">$118</span>
+                    </div>
                     <p style="margin: 5px 0px;">Our Best Selling Hair Extensions</p>
-                    <div class="x" style="height: 20px; width: 20px; background: #000; margin-top: 10px;"></div>
-                </div>
+                    <div class="x" style="height: 20px; width: 20px; background: #959595; margin-top: 10px;"></div>
+                
             </div>
         </div>
     </div>
         <div class="banner2" style="margin-top: 40px;">
-            <div class="banner-img2" style="height: 400px;">
+            <div class="banner-img2" >
                 <img src="Images/CASE1_LOOK-15_GWEN_127_FINALRGB.jpg.png" alt="" height="650px" width="100%">
             </div>
             <div class="banner-info2">
-                <h1 style="margin-bottom: 10px;">Hair Entension Made With Love</h1>
-                <p style="font-size: 18px; text-transform: capitalize; margin-bottom: 10px;">A wide range of hair extensions and beauty products for Women and Kids.</p>
+                <h1 style="margin-bottom: 10px; font-size: 70px; font-weight: 400;">Hair Entension Made With Love</h1>
+                <p style="font-size: 20px; text-transform: uppercase; margin-bottom: 10px;
+                font-family: 'Inter', sans-serif;">A wide range of hair extensions and beauty products for Women and Kids.</p>
                 <button style="padding: 8px 20px; background: #000;
                 color: white;">SHOP Now!</button>
             </div>
@@ -153,9 +164,9 @@
   </div>
 <!-- Content 2 End  -->
 
-     <div class="section2" style="margin-top: 80px;">
+     <div class="section2" style="margin-top: -10px;">
         <div class="section-img2">
-            <img src="Images/pose.jpg.png" alt=" " height="600px" width="100%">
+            <img src="Images/pose.jpg.png" alt=" " height="650px" width="100%">
             <div class="inside-content">
                 <h1 style="margin-bottom: 10px;">FOR KIDS</h1>
                 <p style="margin-bottom: 10px;">A wide range of hair extensions and beauty products</p>
@@ -188,14 +199,14 @@
             <div class="card3">
                 <img src="Images/FEB-HP-Tile-1-Across-Fielder-Desktop.jpg.png" alt="" height="700px" width="550px">
                 <div class="card-txt">
-                    <div class="p" style="text-transform: capitalize; font-size: 20px;">Shop Hairs</div>
+                    <div class="p" style="text-transform: capitalize; font-size: 33px; font-family: 'MountiesRegular';">Shop Hairs</div>
                     <div class="img"><img src="Images/arrow.png" alt="" height="20px" width="30px"></div>
                 </div>
             </div>
             <div class="card3">
                 <img src="Images/FEB-HP-Tile-2-Across-Suiting-Desktop.jpg.png" alt="" height="700px" width="550px">
                 <div class="card-txt" >
-                    <div class="p"  style="text-transform: capitalize;font-size: 20px;">Shop Beauty</div>
+                    <div class="p"  style="text-transform: capitalize;font-size: 33px; font-family: 'MountiesRegular';">Shop Beauty</div>
                     <div class="img"><img src="Images/arrow.png" alt="" height="20px" width="30px"></div>
                 </div>
             </div>
@@ -204,12 +215,13 @@
      <!-- Collection end  -->
      <div class="Section3">
         <div class="section-img3">
-            <img src="Images/section3.png" alt="" height="600px" width="100%">
+            <img src="Images/section3.png" alt="" height="700px" width="100%">
         </div>
         <div class="section-info3">
            <div class="sec-txt">
-            <p style="font-size: 18px ; color: white;">Lorem Ipsum</p>
-            <h3  style="font-size: 20px ; color: white; margin-top: 10px;">Browse hot & classy looks for this season and enjoy Exciting Offers & Discounts</h3>
+            <p style="font-size: 18px ; color: white;font-family: 'Inter', sans-serif; text-transform: uppercase;" >Lorem Ipsum</p>
+            <h3  style="font-size: 34px ; color: white; margin-top: 10px;
+            font-family: 'MountiesRegular';font-weight: 400;">Browse hot & classy looks for this season and enjoy Exciting Offers & Discounts</h3>
             <button style="padding: 10px 20px; margin-top: 10px;">Discover More</button>
            </div>
         </div>
@@ -217,14 +229,14 @@
      <div class="Section4">
         <div class="section-info4">
             <div class="sec-txt2">
-                <p style="font-size: 18px;">Empower yourself</p>
-                <h3 style="font-size: 20px;">We are committed to create a Fashionable World</h3>
+                <p style="font-size: 18px;font-family: 'Inter', sans-serif; text-transform: uppercase;">Empower yourself</p>
+                <h1 style="font-size: 34px; font-weight: 400;">We are committed to create a Fashionable World</h1>
                 <button style="padding: 10px 20px; margin-top: 10px;
                 background: #000;color: white;">Discover More</button>
             </div>
         </div>
         <div class="section-img4">
-            <img src="Images/section4.png" alt="" height="600px" width="100%">
+            <img src="Images/section4.png" alt="" height="700px" width="100%">
         </div>
      </div>
       <!-- Section3 & 4 end  -->
@@ -232,7 +244,7 @@
       <div class="content3">
         <div class="heading1 " style="display: flex; justify-content: space-between; ">
             <div class="cont-head">
-                <h2 style="font-size: 35px; text-transform: uppercase;">#HairDresser</h2>
+                <h1 style="font-size: 80px; text-transform: uppercase; font-weight: 400; ">#HairDresser</h1>
             </div>
             <div class="cont-icons">
                 <img src="Images/facebook.png" alt="" style="margin-right: 10px;">
@@ -269,22 +281,23 @@
       <!-- content 3 end  -->
 
       <div class="collection2">
-        <h2 style="font-size: 35px; text-transform: uppercase;">Shop buy</h2>
+        <h1 style="font-size: 50px; text-transform: uppercase; font-weight: 400;">Shop buy</h1>
         <div class="card-collection2 " >
             <div class="card5">
                 <img src="Images/effect-img1.png" alt="" height="650px" width="490px">
                 <div class="effect"></div>
-                <div class="card5-txt"><h3 style="text-transform: uppercase;">Shop Hairs</h3></div>
+                <div class="card5-txt"><h3 style="text-transform: uppercase;font-family: 'Inter', sans-serif;
+                font-weight: bolder;">Shop Hairs</h3></div>
             </div>
             <div class="card5">
                 <img src="Images/effect-img 2.png" alt="" height="650px" width="490px">
                 <div class="effect"></div>
-                <div class="card5-txt"><h3 style="text-transform: uppercase;">Shop Beauty</h3></div>
+                <div class="card5-txt"><h3 style="text-transform: uppercase; font-family: 'Inter', sans-serif;">Shop Beauty</h3></div>
             </div>
             <div class="card5">
                 <img src="Images/effect-img3.png" alt="" height="650px" width="490px">
                 <div class="effect"></div>
-                <div class="card5-txt"><h3 style="text-transform: uppercase;">Shop for kids</h3></div>
+                <div class="card5-txt"><h3 style="text-transform: uppercase; font-family: 'Inter', sans-serif;">Shop for kids</h3></div>
             </div>
 
         </div>
@@ -320,14 +333,16 @@
             <h2 style="margin-bottom: 10px; color: #FFFFFF;">Get On The List</h2>
             <h3 style="margin-bottom: 10px;">Sign up to get to know all latest offers and 10% off your first order.</h3>
             <p style="margin-bottom: 10px;">*By signing up, I agree to receive recurring automated marketing text messages Lorem ipsum dolor sit amet consectetur. Id in fames elit sagittis eget aliquet. Dictum fringilla aliquet tempor scelerisque vulputate felis faucibus ipsum.</p>
+           <form action="">
             <table style="margin-bottom: 10px; ">
                 <tr>
-                    <td><input type="text" value="Your Phone Number*"></td>
+                    <td><input type="text" placeholder="Your Phone Number*"></td>
                     <!-- <div class="eff"></div> -->
-                    <td><input type="email" value="Your Email Address"></td>
+                    <td><input type="email" placeholder="Your Email Address"></td>
                     <!-- <div class="eff"></div> -->
                 </tr>
             </table>
+           </form>
             <button style="padding: 8px 14px; background-color: black;
              color: white; border: 1px solid white;">SIGN-UP</button>
             <div class="footer-line"></div> 
